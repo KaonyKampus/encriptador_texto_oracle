@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header">
+            <img src="./assets/Logo.png" alt="">
+            <h1 class="title">
+                🔒 Encriptador de Texto 🔒
+            </h1>
+    </header> 
+    <main class="main">
+        <div class="box__1">
+            <div class="box__input">
+                <input type="text" id="textBox" placeholder="ingresa tu texto...">
+                <p class="parag-copied" id="parag-copied">⚠️ solo letras minusculas sin acentos ⚠️</p>
+            </div>
+            <div class="box__buttons" >
+                <button class="button"  onclick="clickFunction();">Encriptar</button>   
+                <button class="button"  onclick="clickFunction2();">Desencriptar</button>
+                <button class="button"  onclick="resetTextBox()">Resetear</button>
+            </div>
+        </div>
+        
+        <div class="box__2">
+            <img src="./assets/Muñeco.png" alt="muneco">
+            <p class="parag__encriptado" id="convertido">
+            </p>
+            <button class="button"  onclick="copyText()">Copiar</button>
+        </div>
+
+
+
+
+
+
+
+
+
+
+                
+
+    </main>
+
+
+
+
+
+
+    <footer class="footer">
+            <h2 class="footer__title">Desarrollado por <a class="david__silva" target="_blank" href="https://kaonykampus.github.io/repositorio-david-silva/">David Silva</a></h2>
+           
+            <div class="footer__icons">
+                <a  href="https://discord.com/channels/davidsilva_32405"><img  class="icons"  src="./assets/discord.png" alt="discord logo"></a>   
+                <a  href="https://github.com/KaonyKampus"><img  class="icons"  src="./assets/github.png" alt="github logo"></a>    
+                <a  href="https://www.linkedin.com/in/david-stiven-silva-velandia-ba3529236/"><img  class="icons"  src="./assets/linkedin.png" alt="linkedin logo"></a>    
+                <a  href="mailto:davidsilvav6@gmail.com"><img  class="icons"  src="./assets/gmail-logo_icon-icons.com_72739.png" alt="gmail logo"></a>     
+            </div>
+    </footer>
+
+</body>
+<script src="./app.js"></script>
+</html>
