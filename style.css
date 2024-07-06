@@ -178,3 +178,20 @@ body{
 .icons:hover{
     transform: scale(1.1)
 }
+
+@media (max-width: 800PX) {
+    .header{
+        justify-content: space-between;
+    }
+
+    .title{
+        font-size:1.5rem;
+    }
+
+    .main{
+
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+}
