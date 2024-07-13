@@ -54,7 +54,6 @@ function clickFunction(){
         const element1 = document.querySelector("#parag-copied");
         element1.innerHTML = "¡Texto encriptado con éxito!"
     }
-
 }
 
 
@@ -80,7 +79,9 @@ function resetTextBox (){
     const resetBox = document.querySelector("#textBox");
     const resetText = document.querySelector("#convertido");
         resetBox.value = " ";
-        resetText.innerHTML = " ";
+        resetText.innerHTML = "Aquí verás tu texto después del proceso";
+
+
 }
 
 
