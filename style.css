@@ -3,8 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lilita+One&display=swap');
 
 *{
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
 }
 
 body{
@@ -183,18 +183,23 @@ body{
 
 
     .header{
-        justify-content: space-between;
-        margin:0.5rem;
+        margin:1rem 1rem 1rem 1rem ;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo__alura{
+        width: 20%;
     }
 
     .title{
         padding: auto;
-        font-size:1.5rem;
-        text-align: center;
+        font-size:0.9rem;
+        align-items: center;
     }
 
     .main{
-
         flex-direction: column-reverse;
         align-items: center;
     }
@@ -207,9 +212,16 @@ body{
         width: 80%;
     }
 
+    #textBox {
+        font-size: 0.9rem;
+    }
     .parag-copied{
         background-color: red;
         border-radius: 0.5rem;
+        font-size: 1rem;
+    }
+
+    .parag__encriptado{
         font-size: 1rem;
     }
 
